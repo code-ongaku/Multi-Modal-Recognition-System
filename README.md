@@ -31,3 +31,11 @@ The project implements a basic multi-modal authentication system that verifies u
 
 - Fusion led to a significant increase in accuracy, as one modality compensated for the limitations of the other.
 
+
+## Execution Instructions
+Download the .ipynb file, the ATT dataset folder, and the speakers_audio_data folder into the same directory.
+
+Open and run the .ipynb file.
+
+If any required packages are missing, install them using your preferred package manager.
+For example, in Jupyter Notebook, you can install a missing package in a cell by using ``` !pip install package-name ```
