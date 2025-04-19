@@ -1,9 +1,9 @@
 # Multi-Modal Recognition System
 
-This project implements a basic multi-modal authentication system that integrates facial recognition and speaker recognition to verify users. By combining the strengths of both modalities, the system aims to provide a more robust and reliable approach to user authentication.
+This system is built as my Final Project in the course ENCM 509: Biometric Systems Design
+The project implements a basic multi-modal authentication system that verifies users using facial recognition and speaker recognition. By combining the strengths of both modalities, the system aims to provide a more robust and reliable approach to user authentication.
 
 ## Technologies Used:
-- Python
 - OpenCV - image processing and facial feature extraction
 - NumPy, Pandas – data manipulation and analysis
 - Matplotlib – data visualization
@@ -25,9 +25,9 @@ This project implements a basic multi-modal authentication system that integrate
 
 ## Observations
 
-- Speech differences were more distinct between two female users than between a male and female, likely due to accent variations.
+- Speech differences were more noticeable between the two female users than between the male and female users, likely due to accent variations.
 
-- Facial similarities were higher among female subjects, slightly reducing face-matching reliability.
+- Female subjects showed greater facial similarity compared to the male-female pair. This was likely influenced by features such as hair color, smiling with teeth, facial structure, and the presence of glasses.
 
 - Fusion led to a significant increase in accuracy, as one modality compensated for the limitations of the other.
 
