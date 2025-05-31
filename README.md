@@ -1,9 +1,10 @@
 # Multi-Modal Recognition System
 
 This system is built as my Final Project in the course ENCM 509: Biometric Systems Design
+
 The project implements a basic multi-modal authentication system that verifies users using facial recognition and speaker recognition. By combining the strengths of both modalities, the system aims to provide a more robust and reliable approach to user authentication.
 
-## Technologies Used:
+## Technical Stack - Python Libraries:
 - OpenCV - image processing and facial feature extraction
 - NumPy, Pandas – data manipulation and analysis
 - Matplotlib – data visualization
